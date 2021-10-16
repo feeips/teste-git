@@ -15,6 +15,7 @@
 		8552D5BC271B34510000FDAC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8552D5BA271B34510000FDAC /* LaunchScreen.storyboard */; };
 		8552D5C7271B34510000FDAC /* FogueteTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552D5C6271B34510000FDAC /* FogueteTests.swift */; };
 		8552D5D2271B34510000FDAC /* FogueteUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552D5D1271B34510000FDAC /* FogueteUITests.swift */; };
+		8552D5E0271B551B0000FDAC /* rocketListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8552D5DF271B551B0000FDAC /* rocketListViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +50,7 @@
 		8552D5CD271B34510000FDAC /* FogueteUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FogueteUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8552D5D1271B34510000FDAC /* FogueteUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FogueteUITests.swift; sourceTree = "<group>"; };
 		8552D5D3271B34510000FDAC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8552D5DF271B551B0000FDAC /* rocketListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = rocketListViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +108,7 @@
 				8552D5B8271B34510000FDAC /* Assets.xcassets */,
 				8552D5BA271B34510000FDAC /* LaunchScreen.storyboard */,
 				8552D5BD271B34510000FDAC /* Info.plist */,
+				8552D5DF271B551B0000FDAC /* rocketListViewController.swift */,
 			);
 			path = Foguete;
 			sourceTree = "<group>";
@@ -258,6 +261,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8552D5E0271B551B0000FDAC /* rocketListViewController.swift in Sources */,
 				8552D5B4271B34500000FDAC /* ViewController.swift in Sources */,
 				8552D5B0271B34500000FDAC /* AppDelegate.swift in Sources */,
 				8552D5B2271B34500000FDAC /* SceneDelegate.swift in Sources */,
